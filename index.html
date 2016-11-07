@@ -1,30 +1,65 @@
 <!DOCTYPE html>
 <html>
-<head><style type="text/css">.lw { font-size: 60px; }</style>
+<head>
 
+  <style type="text/css">
+  p {
+    line-height: 150%;
+  }
+  </style>
 
-  <meta charset="UTF-8">
-<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<title>HTML5, CSS3 and JavaScript demo</title>
+  <meta charset="utf-8">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+  <script type="text/javascript" src="https://getbootstrap.com/dist/js/bootstrap.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://getbootstrap.com/dist/css/bootstrap.css">
+  <title>...</title>
 </head>
 <body>
 <!-- Start your code here -->
 
-<p class="lw">Hello Weaver!</p>
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-      <div class="list-group">
-        <i class="fa fa-home fa-fw"></i>
-     <a class="list-group-item" href="#intor">劇情提要</a>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-3">
+
+        <h3>Table of Contents</h3>
+
+        <div class="list-group">
+          <a class="list-group-item" href="#intro">
+            <i class="fa fa-home fa-fw"></i>
+            角色介紹
+          </a>
+          <a class="list-group-item" href="#comment">
+            <i class="fa fa-comment-o fa-fw"></i>
+            影評
+          </a>
+        </div>
+
 
       </div>
-    <div class="col-md-4">
-      人物[編輯]
-主條目：名偵探柯南角色列表
-隨著劇情的發展，除了下列人物之外，尚有許多警官、黑暗組織、日本公安、FBI和CIA等其他角色散見於各集數之中。本作品的角色命名多來自日本、歐美國家的著名推理小說家以及其筆下的虛構偵探，亦有部分配角的命名參考自青山剛昌的助手與相關製作人員。
-核心人物[編輯]
-江戶川柯南：
+      <div class="col-md-9">
+
+        <h1>名偵探柯南劇場版</h1>
+
+        <div id="intro">
+          <h2>角色介紹</h2>
+          <p>江戶川柯南：
 劇中的男主角；原高中生偵探工藤新一，遭到灌藥導致身體幼兒化之後所使用的化名。個性溫和正直、熱血堅強，有著過人的膽識、體力及出色的運動能力，對於各項交通工具也有不錯的駕駛技術。因擁有一流的推理能力，而被稱為「日本警察的救世主」、「平成年代的福爾摩斯」；與關西地區的高中生偵探服部平次齊名，並稱為「關西的服部，關東的工藤」。身體縮小之後，在一次的事件中被服部平次識破身分，兩人也成為好友。另外，他認為向毛利蘭表明真實身分會讓她受到連累，總是透過電話以各種理由隱瞞實情。不斷的追查黑暗組織，尋求獲得解藥的管道，希望有朝一日能回復原來的模樣。
 毛利蘭：
 劇中的女主角；帝丹高中二年級的學生，是工藤新一的青梅竹馬、毛利小五郎的女兒、鈴木園子與遠山和葉的好友。個性溫柔善良，待人親切有禮，有著非常準的第六感和與生俱來的好運。在她七歲時父母分居，從小與父親生活、代替母親承擔所有的家務，同時在事務所擔任助手。擁有極為高超的空手道能力，曾獲得東京都空手道大賽冠軍，並多次將拒捕的犯人擊倒。在新一失蹤之後，請求父親收留江戶川柯南，視其為自己的弟弟；雖然她曾數次察覺柯南驚人的推理能力，懷疑兩者為同一人，但每次都在柯南和其他人的幫助之下巧妙瞞過。另一方面，她也非常擔心新一的安危，一直等待著他的歸來。
@@ -38,14 +73,29 @@
 阿笠博士：
 工藤新一的鄰居，是一位發明家。在新一縮小之後，是第一個知曉其真實身分的人；除了向他提供許多破案用的道具之外，也會協助查詢一些案件線索，是新一的有力後盾。平時常邀請少年偵探團的成員們到家作客或從事露營、郊遊等戶外活動，和他們成為忘年之交。當柯南因應毛利小五郎不在場時，就會請他配合其說話的嘴型來進行推理。
 鈴木園子：
-鈴木財團的二千金，是毛利蘭的摯友、同班同學。個性樂觀活潑、略帶輕浮，喜歡穿著較為性感的服裝，有時也會因誇張的舉止令柯南暗自在心中吐槽或譏諷。經常邀請毛利一家外出旅遊或參加各式的宴會活動，當柯南因應毛利小五郎不在場時，就會麻醉她來進行推理。
-    </div>
-    <div class="col-md-4">
-      <div id="intro"><p>主角工藤新一原本是一位經常幫助警方破案的17歲高中生偵探；某一天和青梅竹馬的同班同學毛利蘭在熱帶樂園遊玩時目擊黑暗組織的可疑行動，獨自前往交易現場時卻遭另一名同夥從背後偷襲擊昏，並灌下代號為「APTX-4869」的神秘藥物。後來雖然倖免於死，但身體就此縮小為小學一年級時的模樣；之後他化名為江戶川柯南，在鄰居阿笠博士的建議下，寄住在毛利蘭的父親毛利小五郎家中。同時他也憑藉著過人的推理能力，以及使用阿笠博士為他發明的各種道具，讓小五郎成為名偵探，並藉由平時的案件調查找尋有關黑暗組織的線索。</p>
+鈴木財團的二千金，是毛利蘭的摯友、同班同學。個性樂觀活潑、略帶輕浮，喜歡穿著較為性感的服裝，有時也會因誇張的舉止令柯南暗自在心中吐槽或譏諷。經常邀請毛利一家外出旅遊或參加各式的宴會活動，當柯南因應毛利小五郎不在場時，就會麻醉她來進行推理。</p>
+          <p>...</p>
+        </div>
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="854" height="480" src="https://www.youtube.com/embed/Pbg1FqMh_WE" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+
+        <div id="comment">
+          <h2>影評</h2>
+
+          <p></p>
+        </div>
+
+        <img src="images.jpg" alt="aircraft" class="img-thumbnail" />
+
+        <img src="imagesh.jpg" alt="aircraft" class="img-thumbnail" />
+
+
       </div>
-      <iframe width="854" height="480" src="https://www.youtube.com/embed/Pbg1FqMh_WE" frameborder="0" allowfullscreen=""></iframe>
     </div>
-  </div>
   </div>
 
-<script>// Write JavaScript here </script></div></body>
+<!-- End your code here -->
+
+<script>// Write JavaScript here </script></body>
